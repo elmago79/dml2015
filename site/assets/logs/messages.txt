@@ -1,0 +1,2 @@
+2015-03-24 15:46:20	dgpadmin	http://localhost:8888/dml2015/salas/setup/template/removeFields	Deleted field "descripcion_del_foro" data in 0 row(s) from 0 page(s). [page-by-page]
+2015-03-24 15:48:49	dgpadmin	http://localhost:8888/dml2015/salas/setup/template/removeFields	Deleted field "descripcion_del_foro" data in 0 row(s) from 0 page(s). [page-by-page]

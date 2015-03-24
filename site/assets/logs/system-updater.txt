@@ -1,0 +1,8 @@
+2015-03-24 15:37:08	Update #8: Completed!
+2015-03-24 15:37:08	Update #9: Initializing update
+2015-03-24 15:37:09	Update #9: Added: Pages > Recent
+2015-03-24 15:37:09	Update #9: Completed!
+2015-03-24 15:37:55	Update #10: Initializing update
+2015-03-24 15:37:55	Update #10: Installed ProcessLogger and added: Setup > Logs
+2015-03-24 15:37:55	Update #10: Installed InputfieldIcon
+2015-03-24 15:37:55	Update #10: Completed!
