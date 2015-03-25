@@ -121,7 +121,7 @@ include_once("./_init.php");
 		<a id="Semblanzas"></a>
 		<?php
 		foreach ($semblanzas as $semblanza) {
-			$foto = $semblanza->foto_semblanza;
+			$foto = $semblanza->foto_semblanza->width(350);
 			echo "
 			<div class='contentsection dark clearfix s1'>
 				<div class='content'>
