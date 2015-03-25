@@ -139,29 +139,6 @@ include_once("./_init.php");
 			";
 		}
 		?>
-		<div class='contentsection dark clearfix s1'>
-			<div class='content'>
-				<div class='sectioninfo relative'>
-					<fig><img src='images/loudspeaker.png' alt=''></fig>
-					<figcaption>Loudspeaker</figcaption>
-				</div>
-				<div class='normalcontent'>
-				<h2>Programa Nacional Salas de Lectura</h2>
-					<ul>
-						<li>Trueque de libros</li>
-						<li>Árboles literarios con textos de Efraín Huerta, José Revueltas, Octavio Paz, José Emilio Pacheco, Julio Cortázar y Juan Gelman</li>
-						<li>Dos cápsulas para el fomento de la lectura entre los jóvenes</li>
-						<li>Librobici, lectura en movimiento por todos los rincones</li>
-						<li>Cabinas de lectura "Lectura para tus oídos"</li>
-						<li>Venta de Libros en el Librobus/Educal</li>
-						<li>Transmisión en vivo por Radio Educación</li>
-						<li>Sesiones de lectura digital interactiva / Lectura de audio libros de Radio Educación</li>
-						<li>Paralibros con talleres infantiles y juveniles dedicados a Efraín Huerta, José Revueltas, Julio Cortázar y Guillermo Tovar de Teresa. Con la participación de la Coordinación Nacional de Desarrollo Infantil "Alas y Raíces a los Niños". Horarios: 11:00, 12:00, 13:00, 14:00, 16:00 y 17:00 </li>					
-					</ul>
-				</div>
-			</div>
-			<div class='filter'></div>
-		</div>
 		<a id="Ubicacion"></a>
 		<div class="contentsection dark clearfix">
 			<div class="content">
