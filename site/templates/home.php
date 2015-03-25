@@ -12,9 +12,10 @@
 	    <meta property="og:description" content="Dia miundial del libro" /> 
 
 		<title><?php echo $page->title; ?></title>	
-		<link rel="stylesheet" href="css/styles.css" type="text/css">
-		<link rel="stylesheet" href="css/layout.css" type="text/css">
-		<link rel="stylesheet" href="font-awesome-4.3.0/css/font-awesome.min.css" type="text/css">
+		<link rel="stylesheet" href="<?php echo $config->urls->templates?>css/styles.css" type="text/css">
+		<link rel="stylesheet" href="<?php echo $config->urls->templates?>css/layout.css" type="text/css">
+		<link rel="stylesheet" type="text/css" href="<?php echo $config->urls->templates?>css/jquery.fancybox-1.3.4.css" media="screen" />
+		<link rel="stylesheet" href="<?php echo $config->urls->templates?>font-awesome-4.3.0/css/font-awesome.min.css" type="text/css">
 	</head>	
 	<body>
 		<a id="Home"></a>
@@ -175,14 +176,13 @@
 				<p style="color: #2a2a2a;">CONACULTA, MÉXICO - ALGUNOS DERECHOS RESERVADOS © DIRECCIÓN GENERAL DE PUBLICACIONES 2015</p>
 				<p><img src="images/pie.png" alt=""></p>
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-		<script src="js/jquery.sticky.js"></script>
-		<script src="js/jquery.sticky.js"></script>
-		<script type="text/javascript" src="js/jquery.mousewheel-3.0.4.pack.js"></script>
-		<script type="text/javascript" src="js/jquery.fancybox-1.3.4.pack.js"></script>
-		<script src="js/jqueryeasing.js"></script>
+		<script src="<?php echo $config->urls->templates?>js/jquery.sticky.js"></script>
+		<script src="<?php echo $config->urls->templates?>js/jquery.sticky.js"></script>
+		<script type="text/javascript" src="<?php echo $config->urls->templates?>js/jquery.mousewheel-3.0.4.pack.js"></script>
+		<script type="text/javascript" src="<?php echo $config->urls->templates?>js/jquery.fancybox-1.3.4.pack.js"></script>
+		<script src="<?php echo $config->urls->templates?>js/jqueryeasing.js"></script>
 		<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBaXBe4RxtbrU2clirhC4fpzY4E6riZC_Y&amp;sensor=false"></script>
-		<script src="js/site.js"></script>
-		<link rel="stylesheet" type="text/css" href="css/jquery.fancybox-1.3.4.css" media="screen" />
+		<script src="<?php echo $config->urls->templates?>js/site.js"></script>
 			</div>
 		</div>
 	</body>
