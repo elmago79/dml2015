@@ -1,17 +1,22 @@
+<?php
+include_once("./_init.php"); 
+?>
+
 <!DOCTYPE html>
 <html>
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, maximum-scale=1">
 		<!--OpenGraph tags-->
-		<meta property="og:title" content="Publicaciones | Conaculta" /> 
+		<meta property="og:title" content="<?php echo $site->site_title?>" /> 
 	    <meta property="og:type" content="microsite" /> 
-	    <meta property="og:url" content="http://publicaciones.conaculta.gob.mx/" /> 
-	    <meta property="og:image" content="http://publicaciones.conaculta.gob.mx/wp-content/themes/conaculta/img/logo.png" /> 
-	    <meta property="og:site_name" content="Publicaciones | Conaculta"/> 
-	    <meta property="og:description" content="Dia miundial del libro" /> 
+	    <meta property="og:url" content="<?php echo $site->httpUrl?>" />
+	    <meta property="og:image" content="<?php echo $site->site_image?>" /> 
+	    <meta property="og:site_name" content="<?php echo $site->site_title?>"/> 
+	    <meta property="og:description" content="<?php echo $site->site_description?>" /> 
 
-		<title><?php echo $page->title; ?></title>	
+		<title><?php echo $site->site_title?> :: <?php echo $page->title; ?></title>
+		<meta name="description" content="<?php echo $site->site_description?>" />	
 		<link rel="stylesheet" href="<?php echo $config->urls->templates?>css/styles.css" type="text/css">
 		<link rel="stylesheet" href="<?php echo $config->urls->templates?>css/layout.css" type="text/css">
 		<link rel="stylesheet" type="text/css" href="<?php echo $config->urls->templates?>css/jquery.fancybox-1.3.4.css" media="screen" />
@@ -70,8 +75,15 @@
 					<h2>Actividades</h2>
 					<p>Conoce las actividades de los diversos foros que se encuentran ubicados en la explanda del Palacio de Bellas Artes</p>
 					<ul>
-					<li><a href="#escenario-principal">Escenario Principal</a></li>
-					<li><a href="#talleres">Talleres</a></li>
+					<?php
+					// cycle through all the children
+					foreach($foros as $foro) {
+						echo "<li>";
+						// output the link markup
+						echo "<a href='#$foro->name'>$foro->title</a>";
+						echo "</li>";
+					}
+					?>
 					</ul>
 				</div>
 				<div class="normalcontent">

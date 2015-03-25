@@ -1,0 +1,5 @@
+2015-03-25 12:49:51	dgpadmin	http://localhost:8888/dml2015/	Parse Error: 	syntax error, unexpected end of file (line 17 of /Users/tierraadentro/Sites/dml2015/site/templates/_init.php)
+2015-03-25 12:50:58	dgpadmin	http://localhost:8888/dml2015/	Parse Error: 	syntax error, unexpected end of file (line 17 of /Users/tierraadentro/Sites/dml2015/site/templates/_init.php)
+2015-03-25 12:50:59	dgpadmin	http://localhost:8888/dml2015/	Parse Error: 	syntax error, unexpected end of file (line 17 of /Users/tierraadentro/Sites/dml2015/site/templates/_init.php)
+2015-03-25 12:51:03	dgpadmin	http://localhost:8888/dml2015/	Parse Error: 	syntax error, unexpected end of file (line 17 of /Users/tierraadentro/Sites/dml2015/site/templates/_init.php)
+2015-03-25 12:51:10	dgpadmin	http://localhost:8888/dml2015/	Parse Error: 	syntax error, unexpected end of file (line 17 of /Users/tierraadentro/Sites/dml2015/site/templates/_init.php)
