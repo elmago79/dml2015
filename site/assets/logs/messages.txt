@@ -4,3 +4,4 @@
 2015-03-24 17:53:52	dgpadmin	http://localhost:8888/dml2015/salas/setup/field/send-templates-save	Deleted field &quot;nombre&quot; data in 0 row(s) from 0 page(s). [page-by-page]
 2015-03-24 18:21:39	dgpadmin	http://localhost:8888/dml2015/salas/page/sort/	Updated sort for 5 pages
 2015-03-24 18:21:44	dgpadmin	http://localhost:8888/dml2015/salas/page/sort/	Updated sort for 2 pages
+2015-03-24 18:32:29	dgpadmin	http://localhost:8888/dml2015/salas/setup/template/removeFields	Deleted field &quot;fotografia&quot; data in 0 row(s) from 0 page(s). [page-by-page]

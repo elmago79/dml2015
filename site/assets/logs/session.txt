@@ -1,1 +1,7 @@
 2015-03-24 15:38:23	dgpadmin	http://localhost:8888/dml2015/salas/login/	Successful login for 'dgpadmin'
+2015-03-24 18:55:39	dgpadmin	http://localhost:8888/dml2015/salas/login/logout/	Logout for 'dgpadmin'
+2015-03-24 18:55:50	isantos	http://localhost:8888/dml2015/salas/login/	Successful login for 'isantos'
+2015-03-24 18:57:03	isantos	http://localhost:8888/dml2015/salas/login/logout/	Logout for 'isantos'
+2015-03-24 18:57:11	dgpadmin	http://localhost:8888/dml2015/salas/login/	Successful login for 'dgpadmin'
+2015-03-24 19:01:10	dgpadmin	http://localhost:8888/dml2015/salas/login/logout/	Logout for 'dgpadmin'
+2015-03-24 19:01:18	isantos	http://localhost:8888/dml2015/salas/login/	Successful login for 'isantos'
