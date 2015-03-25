@@ -7,3 +7,21 @@
 2015-03-24 15:37:55	guest	http://localhost:8888/dml2015/	Saved module 'SystemUpdater' config data
 2015-03-24 15:51:16	dgpadmin	http://localhost:8888/dml2015/salas/module/	Saved module 'ProcessProfile' config data
 2015-03-24 15:51:16	dgpadmin	http://localhost:8888/dml2015/salas/module/	Installed module 'AdminThemeReno'
+2015-03-24 15:57:25	dgpadmin	http://localhost:8888/dml2015/salas/module/	Installed module 'FieldtypeCache'
+2015-03-24 15:58:08	dgpadmin	http://localhost:8888/dml2015/salas/module/	Failed to delete module 'Helloworld'
+2015-03-24 15:58:25	dgpadmin	http://localhost:8888/dml2015/salas/module/	Installed module 'ProcessLanguage'
+2015-03-24 15:58:26	dgpadmin	http://localhost:8888/dml2015/salas/module/	Installed module 'ProcessLanguageTranslator'
+2015-03-24 15:58:26	dgpadmin	http://localhost:8888/dml2015/salas/module/	Saved module 'LanguageSupport' config data
+2015-03-24 15:58:26	dgpadmin	http://localhost:8888/dml2015/salas/module/	Saved module 'ProcessProfile' config data
+2015-03-24 15:58:26	dgpadmin	http://localhost:8888/dml2015/salas/module/	Installed module 'LanguageSupport'
+2015-03-24 15:58:32	dgpadmin	http://localhost:8888/dml2015/salas/module/edit	Saved module 'LanguageSupport' config data
+2015-03-24 15:59:13	dgpadmin	http://localhost:8888/dml2015/salas/module/	Installed module 'TextformatterMarkdownExtra'
+2015-03-24 15:59:21	dgpadmin	http://localhost:8888/dml2015/salas/module/edit	Saved module 'TextformatterMarkdownExtra' config data
+2015-03-24 16:00:13	dgpadmin	http://localhost:8888/dml2015/salas/module/	Installed module 'TextformatterSmartypants'
+2015-03-24 16:00:15	dgpadmin	http://localhost:8888/dml2015/salas/module/edit	Saved module 'TextformatterSmartypants' config data
+2015-03-24 16:00:21	dgpadmin	http://localhost:8888/dml2015/salas/module/edit	Saved module 'TextformatterSmartypants' config data
+2015-03-24 16:04:48	dgpadmin	http://localhost:8888/dml2015/salas/module/	Installed module 'FieldtypeTime'
+2015-03-24 16:04:48	dgpadmin	http://localhost:8888/dml2015/salas/module/	Installed module 'InputfieldTime'
+2015-03-24 18:12:06	dgpadmin	http://localhost:8888/dml2015/salas/module/	Saved module 'InputfieldPage' config data
+2015-03-24 18:12:06	dgpadmin	http://localhost:8888/dml2015/salas/module/	Installed module 'InputfieldPageAutocomplete'
+2015-03-24 18:19:40	dgpadmin	http://localhost:8888/dml2015/salas/setup/languages/add/	Saved module 'LanguageSupport' config data
