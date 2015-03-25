@@ -88,77 +88,31 @@ include_once("./_init.php");
 				</div>
 				<div class="normalcontent">
 					<div class="agenda">
-						<div id="escenario-principal" class="agendaitem">
-							<div class="agendaday">
-								<div class="agendadaydate">
-									<span class="month">Escenario Principal</span>
-									<div class="filter"></div>
-								</div>
-								<div class="session">
-									<h3>Inauguración</h3>
-									<p class="time"><i class="fa fa-clock-o"></i>10:15 – 10:30h</p>
-									<p>Autoridades del Consejo Nacional para la Cultura y las Artes, INBA, Senado de la República y Secretaría de Cultura de la Ciudad de México</p>
-								</div>
-								<div class="session">
-									<h3>Charla sobre Federico Campbell</h3>
-									<p class="time">10:30 h</p>
-									<p>Participa: Ana García Bergua</p>
-								</div>
-								<div class="session">
-									<h3>Efraín Huerta, José Revueltas y Octavio Paz en voz alta</h3>
-									<p class="time">11:30 h </p>
-									<p>Participan: Autores del Programa Cultural Tierra Adentro, Mediadores de Lectura y público en general</p>
-								</div>
-								<div class="session">
-									<h3>Octavio Paz: miradas críticas</h3>
-									<p class="time">13:30 h</p>
-									<p>Participan: Evodio Escalante, Josué Ramírez y Víctor Manuel Mendiola. Modera: José María Espinasa</p>
-								</div>
-								<div class="session">
-									<h3>80 años del Palacio de Bellas Artes</h3>
-									<p class="time">14:00 h</p>
-									<p>Participa: Daniel Juárez</p>
-								</div>
-								<div class="session">
-									<h3>Para recordar a José Revueltas, Efraín Huerta y Octavio Paz</h3>
-									<p class="time">15:00 h</p>
-									<p>Participan: Agustín Sánchez y Héctor Orestes</p>
-								</div>
-								<div class="session">
-									<h3>Charla editorial</h3>
-									<p class="time">16:00 h</p>
-									<p>Participan: Julio Trujillo, Ricardo Cayuela, Armando González Torres </p>
-								</div>
-								<div class="session">
-									<h3> "Booktubers: Leer y comentar a Octavio Paz, Efraín Huerta y José Revueltas en YouTube" </h3>
-									<p class="time">17:00 h</p>
-									<p>Participa: Rafael Cessa</p>
-								</div>
-								<div class="session">
-									<h3>Lectura de José Revueltas, Efraín Huerta, José Emilio Pacheco, Julio Cortázar, Juan Gelman, Federico Campbell</h3>
-									<p class="time">17:30 h</p>
-									<p>Patricipan: Mediadores del Programa Nacional Salas de Lectura</p>
-								</div>
-								<div class="session">
-									<h3>Letras para niños de todas las edades. <em>El espejo de los ecos</em> de José Emilio Pacheco / <em>El ciempiés y la araña</em> de Juan Gelman/<em>La rama</em> de Octavio Paz</h3>
-									<p class="time">18:00 h</p>
-									<p>Participan: Mediadores de Lectura del Distrito Federal</p>
-								</div>
-							</div>
-						</div>
-						<div id="talleres" class="agendaitem">
-							<div class="agendaday">
-								<div class="agendadaydate">
-									<span class="month">Talleres</span>
-									<div class="filter"></div>
-								</div>
-								<div class="session">
-									<h3>Talleres Continuos</h3>
-									<p class="time">10:00 h</p>
-									<p>Cada hora un nuevo evento</p>
-								</div>
-							</div>
-						</div>
+						<?php
+						// cycle through all the children
+						foreach($foros as $foro) {
+							echo "
+								 <div id='$foro->name' class='agendaitem'>
+								 	<div class='agendaday'>
+									 	<div class='agendadaydate'>
+									 		<span class='month'>$foro->title</span>
+									 	</div>
+								 	</div>
+							 	";
+
+							$sac = $pages->find("parent=/actividades/, lugar=$foro->title");
+							foreach($sac as $activity) {
+								echo "
+									 <div class='session'>
+										<h3>$activity->title</h3>
+										<p class='time'><i class='fa fa-clock-o'></i>$activity->hora_de_inicio – $activity->hora_termina h</p>
+										<div>$activity->descripcion</div>
+									 </div>
+									 ";
+							}
+							echo "</div>";
+						}
+						?>
 					</div>
 				</div>
 			</div>
