@@ -23,6 +23,7 @@
 			<div id="navitems">
 				<ul>
 					<li><a href="#Home">Día Mundial del Libro</a></li>
+					<li><a href="#Streaming">Streaming</a></li>
 					<li><a href="#Semblanzas">Semblanzas</a></li>
 					<li><a href="#Actividades">Actividades</a></li>
 					<li><a href="#Ubicacion">Ubicación</a></li>
@@ -30,7 +31,7 @@
 			</div>
 		</div>
 		<div id="dgp">
-			<img src="images/logo_dgp.png" alt="">
+			<img src="<?php echo $config->urls->templates?>images/logo_dgp.png" alt="">
 		</div>
 		<div class="contentsection" id="header">
 			<div class="content">
@@ -45,8 +46,22 @@
 				<a href="https://instagram.com/Salasdelectura/"><i class="fa fa-instagram fa-lg"></i>Salasdelectura</a>&nbsp;&nbsp;&nbsp;&nbsp; 
 				<i class="fa fa-birthday-cake"></i>#Salas20AñosDeLectura</a> 
 				</p>
-				<p class="arrow"><a href="#Actividades"><img src="images/arrow.png" alt=""></a></p>
+				<p class="arrow"><a href="#Actividades"><img src="<?php echo $config->urls->templates?>images/arrow.png" alt=""></a></p>
 			</div>
+		</div>
+		<a id="Streaming"></a>
+		<div class="contentsection red clearfix s1">
+			<div class="content">
+				<div class="centercontentt">
+					<div style="float:left; padding-right: 3em;">
+					<h2><a href="#"><i class="fa fa-youtube-play fa-5x"></i></a></h2>
+					</div>
+					<div style="padding-top: 3em;">
+					<p><a href="#">Sigue las actividades del Día Mundial del Libro y del Derecho de Autor por streaming.</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="filter"></div>
 		</div>
 		<a id="Actividades"></a>
 		<div class="contentsection clearfix beige">
@@ -172,9 +187,9 @@
 		<div id="footer" class="contentsection dark clearfix">
 			<div class="footercontent">
 				<p style="color: #2a2a2a;">PARTICIPAN:</p>
-				<p><img src="images/logos.png" alt=""></p>
+				<p><img src="<?php echo $config->urls->templates?>images/logos.png" alt=""></p>
 				<p style="color: #2a2a2a;">CONACULTA, MÉXICO - ALGUNOS DERECHOS RESERVADOS © DIRECCIÓN GENERAL DE PUBLICACIONES 2015</p>
-				<p><img src="images/pie.png" alt=""></p>
+				<p><img src="<?php echo $config->urls->templates?>images/pie.png" alt=""></p>
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 		<script src="<?php echo $config->urls->templates?>js/jquery.sticky.js"></script>
 		<script src="<?php echo $config->urls->templates?>js/jquery.sticky.js"></script>
