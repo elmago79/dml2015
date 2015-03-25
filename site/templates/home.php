@@ -59,10 +59,10 @@ include_once("./_init.php");
 			<div class="content">
 				<div class="centercontentt">
 					<div style="float:left; padding-right: 3em;">
-					<h2><a href="#"><i class="fa fa-youtube-play fa-5x"></i></a></h2>
+					<h2><a href="<?php echo $site->site_streaming?>"><i class="fa fa-youtube-play fa-5x"></i></a></h2>
 					</div>
 					<div style="padding-top: 3em;">
-					<p><a href="#">Sigue las actividades del Día Mundial del Libro y del Derecho de Autor por streaming.</a></p>
+					<p><a href="<?php echo $site->site_streaming?>">Sigue las actividades del Día Mundial del Libro y del Derecho de Autor por streaming.</a></p>
 					</div>
 				</div>
 			</div>
