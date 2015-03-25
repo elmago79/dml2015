@@ -11,5 +11,5 @@ $site = $pages->get('/');
 //Para llamar a todos los foros
 $foros = $pages->get('/foros/')->children;
 // Para llamar a todas las actividades
-$activities = $pages->get('/actividades/')->children;
+$semblanzas = $pages->get('/semblanzas/')->children;
 

@@ -342,9 +342,9 @@ h5 {
 }
 
 p {
-	font-size:23px;
-	margin-bottom:20px;
-	line-height:33px;
+	font-size: 1.2em;
+	margin-bottom: 1.4em;
+	line-height: 1em;
 }
 
 ul {
@@ -359,6 +359,7 @@ ul {
 .dark {
 	color: #626262;
 	background-color: #fff;
+	border-bottom: 3px dotted black;
 }
 /* -- */
 

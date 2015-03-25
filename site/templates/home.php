@@ -82,6 +82,7 @@ include_once("./_init.php");
 						// output the link markup
 						echo "<a href='#$foro->name'>$foro->title</a>";
 						echo "</li>";
+
 					}
 					?>
 					</ul>
@@ -118,12 +119,33 @@ include_once("./_init.php");
 			</div>
 		</div>
 		<a id="Semblanzas"></a>
-		<div class="contentsection dark clearfix s1">
-			<div class="content">
-				<div class="sectioninfo relative">
-					<p><img src="images/loudspeaker.png" alt=""></p>
+		<?php
+		foreach ($semblanzas as $semblanza) {
+			$foto = $semblanza->foto_semblanza;
+			echo "
+			<div class='contentsection dark clearfix s1'>
+				<div class='content'>
+					<div class='sectioninfo relative'>
+						<fig><img src='$foto->url' alt='$foto->description'></fig>
+						<figcaption>$foto->description</figcaption>
+					</div>
+					<div class='normalcontent'>
+					<h2>$semblanza->title</h2>
+						$semblanza->semblanza
+					</div>
 				</div>
-				<div class="normalcontent">
+				<div class='filter'></div>
+			</div>
+			";
+		}
+		?>
+		<div class='contentsection dark clearfix s1'>
+			<div class='content'>
+				<div class='sectioninfo relative'>
+					<fig><img src='images/loudspeaker.png' alt=''></fig>
+					<figcaption>Loudspeaker</figcaption>
+				</div>
+				<div class='normalcontent'>
 				<h2>Programa Nacional Salas de Lectura</h2>
 					<ul>
 						<li>Trueque de libros</li>
@@ -138,7 +160,7 @@ include_once("./_init.php");
 					</ul>
 				</div>
 			</div>
-			<div class="filter"></div>
+			<div class='filter'></div>
 		</div>
 		<a id="Ubicacion"></a>
 		<div class="contentsection dark clearfix">
