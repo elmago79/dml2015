@@ -8,3 +8,4 @@
 2015-03-25 12:35:47	isantos	http://localhost:8888/dml2015/salas/login/logout/	Logout for 'isantos'
 2015-03-25 12:35:54	dgpadmin	http://localhost:8888/dml2015/salas/login/	Successful login for 'dgpadmin'
 2015-03-26 13:39:10	?	?	User 'dgpadmin' - Error: Session fingerprint changed (IP address or useragent) (IP: 0.0.0.0)
+2015-03-26 15:24:00	dgpadmin	http://localhost:8888/dml2015/salas/login/	Successful login for 'dgpadmin'

@@ -73,7 +73,7 @@ include_once("./_init.php");
 			<div class="content">
 				<div class="sectioninfo relative">
 					<h2>Actividades</h2>
-					<p>Conoce las actividades de los diversos foros que se encuentran ubicados en la explanda del Palacio de Bellas Artes</p>
+					<p>Conoce las actividades de los diversos foros que se encuentran ubicados en la explanda del Palacio de Bellas Artes.</p>
 					<ul>
 					<?php
 					// cycle through all the children
@@ -103,13 +103,14 @@ include_once("./_init.php");
 
 							$sac = $pages->find("parent=/actividades/, lugar=$foro->name");
 							foreach($sac as $activity) {
+
 								echo "
 									 <div class='session'>
 										<h3>$activity->title</h3>
 										<p class='time'><i class='fa fa-clock-o'></i>$activity->hora_de_inicio – $activity->hora_termina h</p>
-										<div>$activity->descripcion</div>
-									 </div>
-									 ";
+										<div>$activity->descripcion</div>";
+								echo "</div>";
+				
 							}
 							echo "</div>";
 						}

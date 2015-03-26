@@ -26,11 +26,8 @@ include_once("./_init.php");
 			<img src="<?php echo $config->urls->templates?>images/logo_dgp.png" alt="">
 		</div>
 		<a id="Home"></a>
-						<div class="sectioninfo beige">
-								<a href="<?php echo $site->url?>">&#65513;Volver</a>
-						</div>
-		<a id="Perfil"></a>
 
+		<a id="Perfil"></a>
 		<div class="contentsection clearfix beige">
 			<div class="content">
 				<div class="sectioninfo relative">
@@ -38,6 +35,7 @@ include_once("./_init.php");
 					<div><img class="author" src="<?php echo $foto->url?>" alt="<?php echo $foto->description?>"/><figcaption><?php echo $foto->description?></figcaption></div>
 					
 					<h2><?php echo $page->title?></h2>
+					<a href="<?php echo $site->url?>"><i class="fa fa-arrow-left"></i> Volver a la página principal. <br />::Día Mundial del Libro y del Derecho de Autor::</a>
 				</div>
 				<div class="normalcontent">
 

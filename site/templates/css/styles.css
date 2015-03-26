@@ -414,8 +414,8 @@ ul {
 
 .beige .sectioninfo a {
 	color: #fff;
-	font-size: 1.6em;
-	font-weight:bold;
+	font-size: 1.2em;
+	/* font-weight:bold; */
 	text-decoration:none;
 }
 
@@ -464,7 +464,7 @@ ul {
 
 a {
 	color: #FFF;
-	font-weight:bold;
+	/* font-weight:bold; */
 	text-decoration:none;
 }
 
