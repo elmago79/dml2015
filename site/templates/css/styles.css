@@ -475,6 +475,19 @@ a {
 
 img {
 	max-width:100%;
+ 
+}
+
+img.author {
+	border:1px solid #;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px; 
+}
+
+
+figcaption {
+	font-size: 50%;
 }
 
 #map_canvas img {

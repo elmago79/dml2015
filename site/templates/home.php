@@ -9,9 +9,9 @@ include_once("./_init.php");
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, maximum-scale=1">
 		<!--OpenGraph tags-->
 		<meta property="og:title" content="<?php echo $site->site_title?>" /> 
-	    <meta property="og:type" content="microsite" /> 
+	    <meta property="og:type" content="website" /> 
 	    <meta property="og:url" content="<?php echo $site->httpUrl?>" />
-	    <meta property="og:image" content="<?php echo $site->site_image?>" /> 
+	    <meta property="og:image" content="<?php echo $site->site_image->httpUrl?>" /> 
 	    <meta property="og:site_name" content="<?php echo $site->site_title?>"/> 
 	    <meta property="og:description" content="<?php echo $site->site_description?>" /> 
 
@@ -126,7 +126,7 @@ include_once("./_init.php");
 			<div class='contentsection dark clearfix s1'>
 				<div class='content'>
 					<div class='sectioninfo relative'>
-						<fig><img src='$foto->url' alt='$foto->description'></fig>
+						<div><img src='$foto->url' alt='$foto->description'></div>
 						<figcaption>$foto->description</figcaption>
 					</div>
 					<div class='normalcontent'>
