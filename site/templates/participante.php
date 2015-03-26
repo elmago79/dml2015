@@ -8,14 +8,14 @@ include_once("./_init.php");
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, maximum-scale=1">
 		<!--OpenGraph tags-->
-		<meta property="og:title" content="<?php echo $site->site_title?>" /> 
+		<meta property="og:title" content="<?php echo $page->title?> en el <?php echo $site->site_title?>" /> 
 	    <meta property="og:type" content="microsite" /> 
 	    <meta property="og:url" content="<?php echo $site->httpUrl?>" />
 	    <meta property="og:image" content="<?php echo $site->site_image?>" /> 
 	    <meta property="og:site_name" content="<?php echo $site->site_title?>"/> 
 	    <meta property="og:description" content="<?php echo $site->site_description?>" /> 
 
-		<title><?php echo $site->site_title?> :: <?php echo $page->title; ?></title>
+		<title><?php echo $page->title?> en el <?php echo $site->site_title?></title>
 		<meta name="description" content="<?php echo $site->site_description?>" />	
 		<link rel="stylesheet" href="<?php echo $config->urls->templates?>css/styles.css" type="text/css">
 		<link rel="stylesheet" href="<?php echo $config->urls->templates?>css/layout.css" type="text/css">
@@ -101,7 +101,7 @@ include_once("./_init.php");
 								 	</div>
 							 	";
 
-							$sac = $pages->find("parent=/actividades/, lugar=$foro->name");
+							$sac = $pages->find("parent=/actividades/, lugar=$foro->title");
 							foreach($sac as $activity) {
 								echo "
 									 <div class='session'>

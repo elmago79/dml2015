@@ -14,3 +14,4 @@
 2015-03-25 15:00:13	dgpadmin	http://localhost:8888/dml2015/	Parse Error: 	syntax error, unexpected '';' (T_CONSTANT_ENCAPSED_STRING) (line 126 of /Users/tierraadentro/Sites/dml2015/site/templates/home.php)
 2015-03-25 15:00:46	dgpadmin	http://localhost:8888/dml2015/	Parse Error: 	syntax error, unexpected '';' (T_CONSTANT_ENCAPSED_STRING) (line 126 of /Users/tierraadentro/Sites/dml2015/site/templates/home.php)
 2015-03-25 15:02:12	dgpadmin	http://localhost:8888/dml2015/	Parse Error: 	syntax error, unexpected '';' (T_CONSTANT_ENCAPSED_STRING) (line 126 of /Users/tierraadentro/Sites/dml2015/site/templates/home.php)
+2015-03-25 17:35:36	dgpadmin	http://localhost:8888/dml2015/participantes/alberto-chimal/	Parse Error: 	syntax error, unexpected '"en el"' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' (line 11 of /Users/tierraadentro/Sites/dml2015/site/templates/Participante.php)
