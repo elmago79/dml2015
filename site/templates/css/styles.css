@@ -401,14 +401,14 @@ ul {
 
 .beige {
 	background: url(../images/dia-del-libro.jpg) no-repeat center center fixed; 
-	-webkit-background-size: cover;
+	/* -webkit-background-size: cover; */
 	-moz-background-size: cover;
 	-o-background-size: cover;
-	background-size: cover;
+	/* background-size: cover; */
 	position: relative;
 	overflow: hidden;
 	color: #FFF;
-	background-color:#996633;
+	background-color: #7E0C6E;
 }
 
 
@@ -692,6 +692,10 @@ figcaption {
 	color: #990066;
 	margin-bottom:5px;
 	font-size:20px;
+}
+
+.session a {
+	color:#990066;
 }
 
 /* Map */

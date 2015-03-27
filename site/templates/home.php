@@ -109,6 +109,24 @@ include_once("./_init.php");
 										<h3>$activity->title</h3>
 										<p class='time'><i class='fa fa-clock-o'></i>$activity->hora_de_inicio – $activity->hora_termina h</p>
 										<div>$activity->descripcion</div>";
+										$participantes = $activity->Participantes;
+										if ($participantes != '') {
+											echo "<p>Con ";
+										$lista = '';
+										foreach ($participantes as $participante) {
+											if ($participante->biografia == '') {
+												$lista .= "$participante->title, ";
+											} else {
+											$lista .= "<a href='$participante->url'>$participante->title</a>, ";
+											}
+										}
+										$lista = substr($lista, 0, strlen($lista) - 2);
+										$lista = preg_replace('/,([^,]*)$/', ' y \1', $lista);
+										echo "$lista </p>";
+
+										}
+										
+
 								echo "</div>";
 				
 							}
