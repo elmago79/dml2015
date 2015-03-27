@@ -45,7 +45,7 @@ include_once("./_init.php");
 					<div class="agenda">
 						<?php
 						// cycle through all the children
-						$participante = $page->title;
+						$participante = $page->name;
 						$acts = $pages->find("parent=/actividades/, Participantes=$participante");
 						foreach($acts as $act) {
 							$lugar = $act->lugar->title;
