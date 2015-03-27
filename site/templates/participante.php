@@ -31,9 +31,10 @@ include_once("./_init.php");
 		<div class="contentsection clearfix beige">
 			<div class="content">
 				<div class="sectioninfo relative">
+					<?php if ($page->fotografia): ?>
 					<?php $foto = $page->fotografia->width(350); ?>
 					<div><img class="author" src="<?php echo $foto->url?>" alt="<?php echo $foto->description?>"/><figcaption><?php echo $foto->description?></figcaption></div>
-					
+					<?php endif; ?>
 					<h2><?php echo $page->title?></h2>
 					<a href="<?php echo $site->url?>"><i class="fa fa-arrow-left"></i> Volver a la página principal. <br />::Día Mundial del Libro y del Derecho de Autor::</a>
 				</div>
@@ -71,16 +72,6 @@ include_once("./_init.php");
 				</div>
 			</div>
 		</div>
-		<a id="Ubicacion"></a>
-		<div class="contentsection dark clearfix">
-			<div class="content">
-				<h2>Ubicación</h2>
-				<p><strong>Explanada del Palacio de Bellas Artes.</strong> Avenida Juárez, esquina Eje Central Lázaro Cárdenas, Centro Histórico, Cuauhtémoc, 06050. Ciudad de México</p>
-					<p><a href="#" class="getLocation">¿Cómo llegar?</a></p>
-				<div id="map_canvas" data-lat="19.435452" data-long="-99.141174"></div>
-			</div>
-			<div class="filter"></div>
-		</div>
 		<div id="footer" class="contentsection dark clearfix">
 			<div class="footercontent">
 				<p style="color: #2a2a2a;">PARTICIPAN:</p>
@@ -93,7 +84,6 @@ include_once("./_init.php");
 		<script type="text/javascript" src="<?php echo $config->urls->templates?>js/jquery.mousewheel-3.0.4.pack.js"></script>
 		<script type="text/javascript" src="<?php echo $config->urls->templates?>js/jquery.fancybox-1.3.4.pack.js"></script>
 		<script src="<?php echo $config->urls->templates?>js/jqueryeasing.js"></script>
-		<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBaXBe4RxtbrU2clirhC4fpzY4E6riZC_Y&amp;sensor=false"></script>
 		<script src="<?php echo $config->urls->templates?>js/site.js"></script>
 			</div>
 		</div>

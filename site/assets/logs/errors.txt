@@ -43,3 +43,8 @@
 2015-03-26 23:32:05	guest	http://localhost:8888/dml2015/participantes/luis-sopelana/	Error: 	Call to a member function width() on null (line 34 of /Users/elmago79/Sites/dml2015/site/templates/Participante.php)
 2015-03-26 23:32:32	guest	http://localhost:8888/dml2015/participantes/richard-zela/	Error: 	Call to a member function width() on null (line 34 of /Users/elmago79/Sites/dml2015/site/templates/Participante.php)
 2015-03-26 23:44:48	guest	http://localhost:8888/dml2015/participantes/rodrigo-castillo/	Error: 	Call to a member function width() on null (line 34 of /Users/elmago79/Sites/dml2015/site/templates/Participante.php)
+2015-03-26 23:52:00	guest	http://localhost:8888/dml2015/participantes/alfonso-ochoa/	Error: 	Call to a member function width() on null (line 34 of /Users/elmago79/Sites/dml2015/site/templates/Participante.php)
+2015-03-26 23:53:19	dgpadmin	http://localhost:8888/dml2015/participantes/richard-zela/	Error: 	Call to a member function width() on null (line 34 of /Users/elmago79/Sites/dml2015/site/templates/Participante.php)
+2015-03-26 23:56:07	dgpadmin	http://localhost:8888/dml2015/participantes/richard-zela/	Parse Error: 	syntax error, unexpected '<' (line 35 of /Users/elmago79/Sites/dml2015/site/templates/Participante.php)
+2015-03-27 00:00:05	dgpadmin	http://localhost:8888/dml2015/participantes/etgar-keret/	Error: 	Call to a member function width() on null (line 35 of /Users/elmago79/Sites/dml2015/site/templates/Participante.php)
+2015-03-27 00:00:11	dgpadmin	http://localhost:8888/dml2015/participantes/etgar-keret/	Error: 	Call to a member function width() on null (line 35 of /Users/elmago79/Sites/dml2015/site/templates/Participante.php)
