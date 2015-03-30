@@ -74,6 +74,7 @@ include_once("./_init.php");
 				<div class="sectioninfo relative">
 					<h2>Actividades</h2>
 					<p>Conoce las actividades de los diversos foros que se encuentran ubicados en la explanda del Palacio de Bellas Artes.</p>
+					<div id="sidemenu">
 					<ul>
 					<?php
 					// cycle through all the children
@@ -86,6 +87,7 @@ include_once("./_init.php");
 					}
 					?>
 					</ul>
+					</div>
 				</div>
 				<div class="normalcontent">
 					<div class="agenda">

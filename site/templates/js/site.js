@@ -48,6 +48,13 @@ $(function() {
 	    }, 1000, "easeInOutCirc");
 	    return false;
 	});
+
+	$('#sidemenu a').click(function(){
+	    $('html, body').stop().animate({
+	        scrollTop: ($( $(this).attr('href') ).offset().top - 50)
+	    }, 1000, "easeInOutCirc");
+	    return false;
+	});
 	
 	var intID;
 	intID = setInterval ( RepeatCall, 400 );
