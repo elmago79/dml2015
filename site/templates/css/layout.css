@@ -63,6 +63,10 @@
 
 @media screen and (max-width: 800px) {
 
+	.contentsection#header {
+		background-attachment: scroll;
+	}
+
 	.contentsection .content h1 {
 		font-size:70%;
 	}
@@ -108,10 +112,6 @@
 }
 
 @media screen and (max-width: 500px) {
-
-	.contentsection#header {
-		background-attachment: scroll;
-	}
 	
 	#header {
 		font-size:60%;
