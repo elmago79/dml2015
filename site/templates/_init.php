@@ -5,6 +5,10 @@
  *
  */
 
+// Google Analytics code
+
+include_once("analyticstracking.php");
+
 
 // Para poblar las variables del sitio
 $site = $pages->get('/');
