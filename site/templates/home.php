@@ -23,6 +23,7 @@ include_once("./_init.php");
 		<link rel="stylesheet" href="<?php echo $config->urls->templates?>font-awesome-4.3.0/css/font-awesome.min.css" type="text/css">
 	</head>	
 	<body>
+		<?php include_once("analyticstracking.php") ?>
 		<a id="Home"></a>
 		<div id="nav">
 			<div id="navitems">

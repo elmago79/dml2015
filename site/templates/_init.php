@@ -5,7 +5,6 @@
  *
  */
 
-
 // Para poblar las variables del sitio
 $site = $pages->get('/');
 //Para llamar a todos los foros

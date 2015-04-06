@@ -22,6 +22,7 @@ include_once("./_init.php");
 		<link rel="stylesheet" href="<?php echo $config->urls->templates?>font-awesome-4.3.0/css/font-awesome.min.css" type="text/css">
 	</head>	
 	<body>
+		<?php include_once("analyticstracking.php") ?>
 		<div id="dgp">
 			<img src="<?php echo $config->urls->templates?>images/logo_dgp.png" alt="">
 		</div>
