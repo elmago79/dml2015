@@ -25,3 +25,4 @@
 2015-03-24 18:12:06	dgpadmin	http://localhost:8888/dml2015/salas/module/	Saved module 'InputfieldPage' config data
 2015-03-24 18:12:06	dgpadmin	http://localhost:8888/dml2015/salas/module/	Installed module 'InputfieldPageAutocomplete'
 2015-03-24 18:19:40	dgpadmin	http://localhost:8888/dml2015/salas/setup/languages/add/	Saved module 'LanguageSupport' config data
+2015-04-06 20:27:19	dgpadmin	http://localhost:8888/dml2015/salas/module/	Installed module 'AllInOneMinify'

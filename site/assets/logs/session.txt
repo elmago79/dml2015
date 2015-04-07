@@ -12,3 +12,4 @@
 2015-03-26 23:52:46	dgpadmin	http://localhost:8888/dml2015/salas/login/	Successful login for 'dgpadmin'
 2015-03-30 11:29:58	?	?	User 'dgpadmin' - Session timed out (session older than 86400 seconds) (IP: 0.0.0.0)
 2015-03-31 09:49:07	?	?	User 'dgpadmin' - Session timed out (session older than 86400 seconds) (IP: 0.0.0.0)
+2015-04-06 20:25:34	dgpadmin	http://localhost:8888/dml2015/salas/login/	Successful login for 'dgpadmin'
