@@ -17,7 +17,7 @@ include_once("./_init.php");
 
 		<title><?php echo $site->site_title?> :: <?php echo $page->title; ?></title>
 		<meta name="description" content="<?php echo $site->site_description?>" />
-		<link rel="stylesheet" href="<?php echo AIOM::CSS(array('css/styles.css', 'css/layout.less', 'css/jquery.fancybox-1.3.4.css', 'font-awesome-4.3.0/css/font-awesome.min.css' )); ?>">
+		<link rel="stylesheet" href="<?php echo AIOM::CSS(array('css/styles.css', 'css/layout.css', 'css/jquery.fancybox-1.3.4.css', 'font-awesome-4.3.0/css/font-awesome.min.css' )); ?>">
 	</head>	
 	<body>
 		<?php include_once("analyticstracking.php") ?>
@@ -25,7 +25,7 @@ include_once("./_init.php");
 		<div id="nav">
 			<div id="navitems">
 				<ul>
-					<li><a href="#Home">Día Mundial del Libro</a></li>
+					<li><a href="#Home">Inicio</a></li>
 					<li><a href="#Streaming">Streaming</a></li>
 					<li><a href="#Semblanzas">Semblanzas</a></li>
 					<li><a href="#Actividades">Actividades</a></li>
