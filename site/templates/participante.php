@@ -16,10 +16,9 @@ include_once("./_init.php");
 	    <meta property="og:description" content="<?php echo $site->site_description?>" /> 
 
 		<title><?php echo $page->title?> en el <?php echo $site->site_title?></title>
-		<meta name="description" content="<?php echo $site->site_description?>" />	
-		<link rel="stylesheet" href="<?php echo $config->urls->templates?>css/styles.css" type="text/css">
-		<link rel="stylesheet" href="<?php echo $config->urls->templates?>css/layout.css" type="text/css">
-		<link rel="stylesheet" href="<?php echo $config->urls->templates?>font-awesome-4.3.0/css/font-awesome.min.css" type="text/css">
+		<meta name="description" content="<?php echo $site->site_description?>" />
+		<link rel="stylesheet" href="<?php echo AIOM::CSS(array('css/styles.css', 'css/layout.css', 'css/jquery.fancybox-1.3.4.css', 'font-awesome-4.3.0/css/font-awesome.min.css' )); ?>">
+
 	</head>	
 	<body>
 		<?php include_once("analyticstracking.php") ?>
@@ -80,12 +79,7 @@ include_once("./_init.php");
 				<p style="color: #2a2a2a;">CONACULTA, MÉXICO - ALGUNOS DERECHOS RESERVADOS © DIRECCIÓN GENERAL DE PUBLICACIONES 2015</p>
 				<p><img src="<?php echo $config->urls->templates?>images/pie.png" alt=""></p>
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-		<script src="<?php echo $config->urls->templates?>js/jquery.sticky.js"></script>
-		<script src="<?php echo $config->urls->templates?>js/jquery.sticky.js"></script>
-		<script type="text/javascript" src="<?php echo $config->urls->templates?>js/jquery.mousewheel-3.0.4.pack.js"></script>
-		<script type="text/javascript" src="<?php echo $config->urls->templates?>js/jquery.fancybox-1.3.4.pack.js"></script>
-		<script src="<?php echo $config->urls->templates?>js/jqueryeasing.js"></script>
-		<script src="<?php echo $config->urls->templates?>js/site.js"></script>
+		<script src="<?php echo AIOM::JS(array('js/jquery.sticky.js', 'js/jquery.mousewheel-3.0.4.pack.js', 'js/jquery.fancybox-1.3.4.pack.js', 'js/jqueryeasing.js', 'js/site.js')); ?>"></script>
 			</div>
 		</div>
 	</body>
